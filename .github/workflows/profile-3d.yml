@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: yoshi389111/github-profile-3d-contrib@0.7.0
         env:
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: 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
           USERNAME: ankurhalder
       - name: Commit & Push
         run: |
