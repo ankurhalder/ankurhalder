@@ -1,3 +1,5 @@
+![Header](./images/header.png)
+
 <h1 align="center">Hi 👋, I'm Ankur Halder</h1>
 <h3 align="center">Passionate software dev skilled in MERN stack , Django (full stack, REST API, ORM), Python (OOP), JavaScript (OOP), Next.js (full stack) and DSA Committed to crafting efficient solutions & contributing to open-source. Let's connect & innovate!</h3>
 
