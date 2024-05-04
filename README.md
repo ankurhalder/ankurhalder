@@ -13,7 +13,7 @@
 
 - 🌱 I’m currently learning **Cloud Database management and Advanced DSA**
 
-- 👨‍💻 All of my projects are available at [https://ankurhalder.github.io](https://ankurhalder.github.io)
+- 👨‍💻 All of my projects are available at [https://www.ankurhalder.in](https://www.ankurhalder.in)
 
 - 💬 Ask me about **JavaScript, CSS, SCSS, react.js, next.js, Django, Flask, node.js, express.js, SQL, MYSQL, MongoDB, DevOps, Docker, Container, Google Cloud, AWS, Kubernetes**
 
