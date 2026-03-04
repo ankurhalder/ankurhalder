@@ -1,4 +1,4 @@
-![Header](./images/header.png)
+![Header](./images/header.png?v=1)
 
 <h1 align="center">Hi 👋, I'm Ankur Halder</h1>
 <h3 align="center">Passionate and enthusiastic about software development,  proficient in MERN stack, Django (full stack, REST API, ORM), Python (OOP), JavaScript (OOP), Next.js (full stack), and DSA. Confident and dedicated in creating effective solutions. Moreover, active contributor to open-source projects.</h3>
