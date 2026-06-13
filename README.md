@@ -34,14 +34,7 @@
 
 This isn't a static badge — it's a live card. Drop one in your own README too.
 
-<!-- Engive GitHub Widgets (live, themeable, free) -->
-<script src="https://ankurhalder.com/widget/embed.js" data-username="ankurhalder" data-theme="glass-dark" data-engive-widget="loader" defer></script>
-
-<div class="engive-github-widget" data-widget="developer-card"></div>
-<div class="engive-github-widget" data-widget="top-languages"></div>
-<div class="engive-github-widget" data-widget="streak-stats"></div>
-<div class="engive-github-widget" data-widget="repo-showcase"></div>
-<div class="engive-github-widget" data-widget="contribution-graph"></div>
+[![Ankur Halder's GitHub Stats](https://ankurhalder.com/api/v1/user/widgets/ankurhalder?theme=glass&color=%233b82f6)](https://ankurhalder.com/github)
 
 ---
 
