@@ -19,21 +19,34 @@
 
 ## 📊 Live GitHub Stats
 
-> Real-time stats delivered by **[Engive](https://ankurhalder.com/widget)** — the embeddable GitHub-stats system I built. Cards reload from MongoDB Atlas on every visit, mirrored to my private Linux server. Drop one in your own README too.
+> Powered by **[Engive](https://ankurhalder.com/widget)** — the embeddable GitHub-stats system I built. Each card is a server-rendered SVG served from MongoDB Atlas, mirrored to my private Linux server, cached at the edge for 24h. Drop one in your own README.
 
 ### Developer Chronicle
 
-<img src="https://www.ankurhalder.com/api/widget/ankurhalder/stats.svg?theme=glass-dark&cardWidth=520" alt="Ankur Halder's GitHub Stats" />
+<p align="center">
+  <img src="https://www.ankurhalder.com/api/widget/ankurhalder/stats.svg?theme=glass-dark&cardWidth=520" alt="Ankur Halder's GitHub Stats" />
+</p>
 
-### Stack & Streak — Aurora
+### Streak & Languages
 
-<img src="https://www.ankurhalder.com/api/widget/ankurhalder/stats.svg?theme=aurora&cardWidth=420" alt="Ankur Halder's tech stack" />
+<table>
+  <tr>
+    <td align="center"><img src="https://www.ankurhalder.com/api/widget/ankurhalder/streak.svg?theme=dracula&cardWidth=400" alt="Streak" /></td>
+    <td align="center"><img src="https://www.ankurhalder.com/api/widget/ankurhalder/top-languages.svg?theme=glass-dark&cardWidth=480" alt="Top Languages" /></td>
+  </tr>
+</table>
 
-### Compact — Solarized
+### Contribution Graph
 
-<img src="https://www.ankurhalder.com/api/widget/ankurhalder/stats.svg?theme=solarized&cardWidth=320&showCommits=false&showStreak=false" alt="Compact stats" />
+<p align="center">
+  <img src="https://www.ankurhalder.com/api/widget/ankurhalder/contributions.svg?theme=glass-dark&cardWidth=820" alt="Contribution Graph" />
+</p>
 
-> ⚡ SVG cards are served by `/api/widget/[username]/stats.svg` with `Cache-Control: public, s-maxage=86400, stale-while-revalidate=172800`. The interactive embed (developer card, streak, top languages, contribution graph, repo showcase) ships on third-party sites with looser CSP — see [ankurhalder.com/widget/gallery](https://ankurhalder.com/widget/gallery) for the live demo.
+### Featured Repos
+
+<p align="center">
+  <img src="https://www.ankurhalder.com/api/widget/ankurhalder/repos.svg?theme=glass-dark&cardWidth=820" alt="Featured Repos" />
+</p>
 
 ---
 
@@ -56,7 +69,7 @@ A small sample — full case studies live on [ankurhalder.com](https://ankurhald
 
 - **EDUVERSA** — open-source education platform; full-stack MERN, deployed on Vercel.
 - **ankurhalder.com** — this portfolio. Next.js 16 + MongoDB + Redis, custom Developer Chronicle with live GitHub data and an end-to-end CMS.
-- **Engive widget** — embeddable GitHub-stats cards for third-party sites. The system powering the live stats above.
+- **Engive widget** — embeddable GitHub-stats cards. Engineered for GitHub README (CSP-friendly SVG), blogs, docs, and custom portfolios.
 - **Civic-issue reporting platform** — Django REST + React Native; offline-first sync and an admin moderation queue.
 - **Multiple ML/data pipelines** — Python, Pandas, scikit-learn; deployed on Google Cloud Run with scheduled retraining.
 
