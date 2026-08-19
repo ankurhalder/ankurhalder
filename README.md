@@ -19,39 +19,21 @@
 
 ## 📊 Live GitHub Stats
 
-> Real-time widgets powered by **[Engive](https://ankurhalder.com/widget)** — the embeddable GitHub-stats system I built and ship to third-party sites from my own portfolio. Drop one in your own README too.
-
-<!-- Engive widget loader (one script, many widgets) -->
-<script
-  src="https://ankurhalder.com/widget/embed.js"
-  data-username="ankurhalder"
-  data-theme="glass-dark"
-  data-engive-widget="loader"
-  defer
-></script>
+> Real-time stats delivered by **[Engive](https://ankurhalder.com/widget)** — the embeddable GitHub-stats system I built. Cards reload from MongoDB Atlas on every visit, mirrored to my private Linux server. Drop one in your own README too.
 
 ### Developer Chronicle
 
-<div class="engive-github-widget" data-widget="developer-card"></div>
+<img src="https://www.ankurhalder.com/api/widget/ankurhalder/stats.svg?theme=glass-dark&cardWidth=520" alt="Ankur Halder's GitHub Stats" />
 
-### Streak & Languages
+### Stack & Streak — Aurora
 
-<table>
-  <tr>
-    <td align="center" width="50%"><div class="engive-github-widget" data-widget="streak-stats"></div></td>
-    <td align="center" width="50%"><div class="engive-github-widget" data-widget="top-languages" data-theme="aurora"></div></td>
-  </tr>
-</table>
+<img src="https://www.ankurhalder.com/api/widget/ankurhalder/stats.svg?theme=aurora&cardWidth=420" alt="Ankur Halder's tech stack" />
 
-### Contribution Graph
+### Compact — Solarized
 
-<div class="engive-github-widget" data-widget="contribution-graph"></div>
+<img src="https://www.ankurhalder.com/api/widget/ankurhalder/stats.svg?theme=solarized&cardWidth=320&showCommits=false&showStreak=false" alt="Compact stats" />
 
-### Featured Repos
-
-<div class="engive-github-widget" data-widget="repo-showcase"></div>
-
-> ⚡ **Live data** — synced daily from GitHub into MongoDB Atlas, served via Vercel, mirrored to my private Linux server. The same embed script and rendering pipeline is what third-party sites use.
+> ⚡ SVG cards are served by `/api/widget/[username]/stats.svg` with `Cache-Control: public, s-maxage=86400, stale-while-revalidate=172800`. The interactive embed (developer card, streak, top languages, contribution graph, repo showcase) ships on third-party sites with looser CSP — see [ankurhalder.com/widget/gallery](https://ankurhalder.com/widget/gallery) for the live demo.
 
 ---
 
