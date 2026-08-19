@@ -17,6 +17,44 @@
 
 ---
 
+## 📊 Live GitHub Stats
+
+> Real-time widgets powered by **[Engive](https://ankurhalder.com/widget)** — the embeddable GitHub-stats system I built and ship to third-party sites from my own portfolio. Drop one in your own README too.
+
+<!-- Engive widget loader (one script, many widgets) -->
+<script
+  src="https://ankurhalder.com/widget/embed.js"
+  data-username="ankurhalder"
+  data-theme="glass-dark"
+  data-engive-widget="loader"
+  defer
+></script>
+
+### Developer Chronicle
+
+<div class="engive-github-widget" data-widget="developer-card"></div>
+
+### Streak & Languages
+
+<table>
+  <tr>
+    <td align="center" width="50%"><div class="engive-github-widget" data-widget="streak-stats"></div></td>
+    <td align="center" width="50%"><div class="engive-github-widget" data-widget="top-languages" data-theme="aurora"></div></td>
+  </tr>
+</table>
+
+### Contribution Graph
+
+<div class="engive-github-widget" data-widget="contribution-graph"></div>
+
+### Featured Repos
+
+<div class="engive-github-widget" data-widget="repo-showcase"></div>
+
+> ⚡ **Live data** — synced daily from GitHub into MongoDB Atlas, served via Vercel, mirrored to my private Linux server. The same embed script and rendering pipeline is what third-party sites use.
+
+---
+
 ## 🧭 What I work on
 
 | | |
@@ -30,20 +68,13 @@
 
 ---
 
-## 📊 Live GitHub Activity
-
-This isn't a static badge — it's a live card. Drop one in your own README too.
-
-[![Ankur Halder's GitHub Stats](https://ankurhalder.com/api/v1/user/widgets/ankurhalder?theme=glass&color=%233b82f6)](https://ankurhalder.com/github)
-
----
-
 ## 🛠️ What I've shipped
 
 A small sample — full case studies live on [ankurhalder.com](https://ankurhalder.com).
 
 - **EDUVERSA** — open-source education platform; full-stack MERN, deployed on Vercel.
 - **ankurhalder.com** — this portfolio. Next.js 16 + MongoDB + Redis, custom Developer Chronicle with live GitHub data and an end-to-end CMS.
+- **Engive widget** — embeddable GitHub-stats cards for third-party sites. The system powering the live stats above.
 - **Civic-issue reporting platform** — Django REST + React Native; offline-first sync and an admin moderation queue.
 - **Multiple ML/data pipelines** — Python, Pandas, scikit-learn; deployed on Google Cloud Run with scheduled retraining.
 
